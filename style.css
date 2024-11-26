@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color:dda15e;  
+}
+
+        .article {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px 20px 10px ;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            min-height: 800px;
+        }
+        .article h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-family: "Oswald", sans-serif;
+            text-align: center;
+        }
+        .article p {
+            line-height: 1.6;
+        }
+        #articleauthor {
+            font-style: italic;
+            color: #555;
+        }
+
+.photos {
+    height: 300px;
+    width: 300px;
+    border-radius: 55%;
+    object-fit: cover;
+}
